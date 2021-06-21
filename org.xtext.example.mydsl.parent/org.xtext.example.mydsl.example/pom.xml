@@ -41,6 +41,30 @@
 						<artifactId>org.xtext.example.mydsl</artifactId>
 						<version>${project.version}</version>
 					</dependency>
+					<!-- Explicit deps to avoid mixing versions of jdt.core
+						(from Tycho TP: 2.26)
+						and jdt.compiler.apt (from Maven 1.3.1100,
+						needed by org.eclipse.xtext.builder.standalone) -->
+					<dependency>
+						<groupId>org.eclipse.jdt</groupId>
+						<artifactId>org.eclipse.jdt.core</artifactId>
+						<version>3.26.0</version>
+					</dependency>
+					<dependency>
+						<groupId>org.eclipse.jdt</groupId>
+						<artifactId>org.eclipse.jdt.compiler.apt</artifactId>
+						<version>1.3.1300</version>
+					</dependency>
+					<dependency>
+						<groupId>org.eclipse.platform</groupId>
+						<artifactId>org.eclipse.core.runtime</artifactId>
+						<version>3.22.0</version>
+					</dependency>
+					<dependency>
+						<groupId>org.eclipse.platform</groupId>
+						<artifactId>org.eclipse.equinox.common</artifactId>
+						<version>3.15.0</version>
+					</dependency>
 				</dependencies>
 			</plugin>
 		</plugins>
