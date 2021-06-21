@@ -8,5 +8,24 @@ Bundle-SymbolicName: org.xtext.example.mydsl; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
- org.eclipse.equinox.common;bundle-version="3.5.0"
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.common.types,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.objectweb.asm;bundle-version="[9.1.0,9.2.0)";resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.xtext.example.mydsl.myDsl.util,
+ org.xtext.example.mydsl.parser.antlr.internal,
+ org.xtext.example.mydsl.jvmmodel,
+ org.xtext.example.mydsl.scoping,
+ org.xtext.example.mydsl.services,
+ org.xtext.example.mydsl.validation,
+ org.xtext.example.mydsl,
+ org.xtext.example.mydsl.myDsl.impl,
+ org.xtext.example.mydsl.myDsl,
+ org.xtext.example.mydsl.serializer,
+ org.xtext.example.mydsl.parser.antlr
+Import-Package: org.apache.log4j

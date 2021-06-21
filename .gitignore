@@ -13,7 +13,7 @@ src-gen/
 xtext-gen/
 
 # excluded in projects when needed
-# xtend-gen/
+xtend-gen/
 
 # for Maven builds
 target
