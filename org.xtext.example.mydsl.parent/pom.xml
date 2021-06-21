@@ -22,6 +22,7 @@
 	</properties>
 	<modules>
 		<module>org.xtext.example.mydsl</module>
+		<module>org.xtext.example.mydsl.example</module>
 		<module>org.xtext.example.mydsl.ide</module>
 		<module>org.xtext.example.mydsl.ui</module>
 		<module>org.xtext.example.mydsl.target</module>
