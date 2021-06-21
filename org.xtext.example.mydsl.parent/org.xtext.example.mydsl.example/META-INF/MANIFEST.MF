@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyDsl Example
+Bundle-SymbolicName: org.xtext.example.mydsl.example
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.xtext.example.mydsl.example
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.xtext.xbase.lib;bundle-version="2.25.0"

@@ -1,0 +1,5 @@
+Hello WorldWithHelper {
+	val s = "World!"
+	val helper = new example.helper.Helper
+	helper.process(s)
+}
