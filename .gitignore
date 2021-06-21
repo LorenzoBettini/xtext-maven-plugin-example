@@ -1,0 +1,23 @@
+.DS_Store
+*.class
+bin/
+*~
+logs.zip
+*.orig
+*.java._trace
+*.smap
+*.log
+
+# generated sources
+src-gen/
+xtext-gen/
+
+# excluded in projects when needed
+# xtend-gen/
+
+# for Maven builds
+target
+
+# for Gradle builds
+build
+.gradle
