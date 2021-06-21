@@ -222,7 +222,6 @@
 					<configuration>
 						<!-- THE FOLLOWING LINE MUST NOT BE BROKEN BY AUTOFORMATTING -->
 						<argLine>${platformSystemProperties} ${systemProperties} ${moduleProperties} ${additionalTestArguments}</argLine>
-						<failIfNoTests>false</failIfNoTests>
 						<useUIHarness>false</useUIHarness>
 					</configuration>
 				</plugin>
