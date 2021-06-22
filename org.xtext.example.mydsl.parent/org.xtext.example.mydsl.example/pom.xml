@@ -37,6 +37,15 @@
 				</configuration>
 				<dependencies>
 					<dependency>
+						<!--
+						Redundant (since xtext-maven-plugin depends on that)
+						but it forces jdt deps to be taken from Maven instead of
+						from the TP -->
+						<groupId>org.eclipse.xtext</groupId>
+						<artifactId>org.eclipse.xtext.builder.standalone</artifactId>
+						<version>${xtextVersion}</version>
+					</dependency>
+					<dependency>
 						<groupId>org.xtext.example.mydsl</groupId>
 						<artifactId>org.xtext.example.mydsl</artifactId>
 						<version>${project.version}</version>
